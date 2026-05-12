@@ -351,3 +351,132 @@ text-align: center;
 
 /* //////////  About Section ////////// */
 
+.about-section{
+    padding: 0rem 2rem;
+}
+
+.about-h{
+    background: linear-gradient(rgba(0, 0, 0, 0.125)), url("./images/about-img.webp");
+    background-repeat: no-repeat;
+    background-position:-60%;
+    background-size:cover;
+}
+.intro{
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+.intro h1{
+    color:rgba(6, 6, 183, 0.904) ;
+}
+.intro p{
+    margin-top: 1rem;
+}
+.work-detail{
+    display: flex;
+    margin-top: 2rem;
+}
+.work-detail h1{
+    color: rgba(6, 6, 183, 0.904);
+    font-weight: 700;
+}
+.work-detail div{
+    text-align: center;
+}
+.choose-us{
+    margin-top: 2rem;
+}
+.left-img{
+    background: url("./images/about-s.webp");
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 25rem;
+    border-radius: 1rem;
+}
+.right-info{
+    margin-top: 2rem;
+}
+.right-info h2{
+    color:rgba(6, 6, 183, 0.904) ;
+}
+.right-info p{
+    margin-top: 1rem;
+    padding: 0rem 2rem 0rem 0rem;
+}
+.exprience-ctr{
+    margin-top: 2rem;
+}
+.exprience-ctr .r-img{
+   background: url("./images/1st.webp");
+   background-position:1rem;
+   background-repeat: no-repeat;
+   background-size:cover;
+   min-width: 100%;
+   min-height: 25rem;
+   border-radius: 1rem;
+   position: relative;
+}
+.r-img .two{
+   width: 60%;
+   height: 50%;
+   border-radius: 1rem;
+   border-radius: 1rem;
+   overflow: hidden;
+   border-top: 0.4rem solid white;
+   border-right: 0.4rem solid white;
+   position: absolute;
+   bottom: 0rem;
+}
+.r-img .two img{
+    width: 100%;
+    height: 100%;
+}
+.r-img .three{
+   width: 40%;
+   height: 50%;
+   border-radius: 1rem;
+   z-index: 1000;
+   border-radius: 1rem;
+   overflow: hidden;
+   border-right: 0.4rem solid white;
+   position: absolute;
+}
+.r-img .three img{
+    width: 100%;
+}
+.expr{
+    margin-top: 3rem;
+}
+.expr h1{
+   font-weight: 750;
+}
+.expr p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.ratio{
+    margin-top: 2rem;
+}
+.ratio .prs{
+    display: flex;
+    justify-content: space-between;
+}
+.ratio .prs h4{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.ratio .v-bar{
+    margin-top: 1rem;
+    min-width: 100%;
+    min-height: 1rem;
+    background-color: rgb(237, 231, 231);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.ratio .v-bar .e-r{
+    background-color:rgba(21, 21, 90, 0.904);
+    width:80%;
+    min-height:1rem;
+    border-radius: 1rem;
+}
