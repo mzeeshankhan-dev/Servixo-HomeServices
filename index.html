@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -29,25 +30,44 @@
         <div class="logo">
           <img src="./images/logo.png" alt="logo" />
         </div>
+
         <div class="navbar">
           <i id="close" class="fa-solid fa-xmark"></i>
+
           <ul class="nav-links">
             <li class="link">
-              <a href="">HOME</a>
+              <a href="#home"> <i class="ri-home-4-fill"></i> HOME</a>
             </li>
             <li class="link">
-              <a href="">SERVICES</a>
+              <a href="#services"> <i class="ri-briefcase-fill"></i> SERVICES</a>
             </li>
             <li class="link">
-              <a href="">ABOUT US</a>
+              <a href="#about"> <i class="ri-user-fill"></i> ABOUT US</a>
             </li>
             <li class="link">
-              <a href="">CONTACT US</a>
+              <a href="#contact"> <i class="ri-mail-fill"></i> CONTACT US</a>
             </li>
           </ul>
+
+          <div class="b-sidebar">
+            <hr style="margin-top: 5rem; opacity: 0.5;">
+
+            <ul class="sb-social">
+              <li> <i class="ri-phone-fill"></i> +92 300 12547738</li>
+              <li> <i class="ri-mail-fill"></i> info@servixo.com</li>
+            </ul>
+            <div class="social-icon">
+              <i class="ri-facebook-fill"></i>
+              <i class="ri-twitter-fill"></i>
+              <i class="ri-linkedin-fill"></i>
+              <i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+
         </div>
+
         <div>
-          <button class="cont-btn">CALL NOW</button>
+          <button class="cont-btn"> <a href="#contact">CALL NOW</a></button>
         </div>
         <div class="bars">
           <i id="bars" class="fa-solid fa-bars"></i>
@@ -64,8 +84,8 @@
       </div>
 
       <div class="h-btns">
-        <button class="h-btn1"><a href="">Book A Service</a></button>
-        <button class="h-btn"><a href="">Contact Us</a></button>
+        <button class="h-btn1"><a href="#contact">Book A Service</a></button>
+        <button class="h-btn"><a href="#contact">Contact Us</a></button>
       </div>
 
       <div class="w-detail">
@@ -94,25 +114,25 @@
       </div>
 
       <div class="srv-cards">
-        <div class="card">
+        <div class="card animationShow">
           <img src="./images/electrician.webp" alt="img" />
           <h3>Electrical Repairs</h3>
           <p>Safe wiring and electrical repairs.</p>
         </div>
 
-        <div class="card">
+        <div class="card animationShow">
           <img src="./images/cleaner.webp" alt="img" />
           <h3>Home Cleaning</h3>
           <p>Keep your home clean and fresh.</p>
         </div>
 
-        <div class="card">
+        <div class="card animationShow">
           <img src="./images/plumber.webp" alt="img" />
           <h3>Plumbing Services</h3>
           <p>Fix leaks and pipe issues quickly.</p>
         </div>
 
-        <div class="card">
+        <div class="card animationShow">
           <img src="./images/pest controler (1).webp" alt="img" />
           <h3>Pest Control</h3>
           <p>Get rid of pests safely and quickly.</p>
@@ -197,16 +217,16 @@
 
     <!-- //////// Services section ///////// -->
 
-    <div class="services-section">
-      <div class="s-heading">
+    <div id="services" class="services-section">
+      <div class="s-heading animationShow">
         <h1>OUR SERVICES</h1>
       </div>
-      <div class="title">
+      <div class="title animationShow">
         <h2>Servixo Provide Professional Home Services For Every Need</h2>
       </div>
 
       <div class="services-ctr">
-        <div class="service">
+        <div class="service animationShow">
           <h3>Electrical Services</h3>
           <div class="service-cards">
             <div class="srv-card">
@@ -243,7 +263,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service animationShow">
           <h3>Cleaning Services</h3>
           <div class="service-cards">
             <div class="srv-card">
@@ -280,7 +300,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service animationShow">
           <h3>Plumbing Services</h3>
           <div class="service-cards">
             <div class="srv-card">
@@ -317,7 +337,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service animationShow">
           <h3>Pest Control Services</h3>
           <div class="service-cards">
             <div class="srv-card">
@@ -356,37 +376,37 @@
       </div>
 
       <div class="price-ctr">
-        <div class="title">
+        <div class="title animationShow">
           <h2>Choose Your Affordable Price</h2>
         </div>
 
         <div class="price-cards">
-          <div class="price-card">
+          <div class="price-card animationShow">
             <h3>Basic Care Plane</h3>
             <h2>$100</h2>
             <p>Perfect for quick home fixes and small repairs.</p>
             <p>Leak Repair</p>
             <p>Basic Electrical Fix</p>
             <p>Routine Inspection</p>
-            <button>GET STARTED</button>
+            <button><a href="#contact">GET STARTED</a></button>
           </div>
-          <div class="price-card">
+          <div class="price-card animationShow">
             <h3>Standard Service Plan</h3>
             <h2>$200</h2>
             <p>Ideal for regular maintenance and repair services.</p>
             <p>Drain Cleaning</p>
             <p>AC Maintenance</p>
             <p>Plumbing Solutions</p>
-            <button>GET STARTED</button>
+            <button><a href="#contact">GET STARTED</a></button>
           </div>
-          <div class="price-card">
+          <div class="price-card animationShow">
             <h3>Complete Service Plan</h3>
             <h2>$300</h2>
             <p>Complete home service package with priority support.</p>
             <p>Full Home Maintenance</p>
             <p>Pest Control Service</p>
             <p>Priority Expert Support</p>
-            <button>GET STARTED</button>
+            <button><a href="#contact">GET STARTED</a></button>
           </div>
         </div>
       </div>
@@ -394,18 +414,18 @@
 
     <!-- //////////  About Section  //////// -->
 
-    <div class="about-section">
-      <div class="s-heading about-h">
+    <div id="about" class="about-section">
+      <div class="s-heading about-h animationShow">
         <h1>ABOUT US</h1>
       </div>
-      <div class="intro">
+      <div class="intro animationShow">
         <h1>Who We Are</h1>
         <p>
           We provide fast, reliable, and professional home services delivered
           by trusted experts for every household need.
         </p>
       </div>
-      <div class="work-detail">
+      <div class="work-detail animationShow">
         <div>
           <h1>1.3k</h1>
           <p>Successful Projects</p>
@@ -425,8 +445,8 @@
       </div>
 
       <div class="choose-us">
-        <div class="left-img"></div>
-        <div class="right-info">
+        <div class="left-img side-anim-show"></div>
+        <div class="right-info r-side-anim-show">
           <h2>Why You Should Choose Us</h2>
           <p>
             Choose Servixo for reliable home services, skilled experts,
@@ -437,7 +457,7 @@
       </div>
 
       <div class="exprience-ctr">
-        <div class="expr">
+        <div class="expr side-anim-show">
           <h1>Built On Hands-On Experience And Precision Work</h1>
           <p>
             We focus On Accurate Diagnostics, Clean Repairs, And Long-Lasting
@@ -478,7 +498,7 @@
           </div>
         </div>
 
-        <div class="r-img">
+        <div class="r-img r-side-anim-show">
           <div class="two">
             <img src="./images/2nd.webp" alt="" />
           </div>
@@ -491,12 +511,12 @@
 
     <!-- ////////// Contact Section ////////// -->
 
-    <div class="contact-section">
-      <div class="s-heading contact-h">
+    <div id="contact" class="contact-section">
+      <div class="s-heading contact-h animationShow">
         <h1>CONTACT US</h1>
       </div>
 
-      <div class="c-form">
+      <div class="c-form side-anim-show">
         <div class="r-form">
           <h2 class="form-h">SEND US A MESSAGE</h2>
 
@@ -524,7 +544,7 @@
           <button class="form-btn">Send Message</button>
         </div>
 
-        <div class="office-info">
+        <div class="office-info r-side-anim-show">
           <h2 class="info-h">GET OFFICE INFO</h2>
           <div class="info">
             <span>
